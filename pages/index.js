@@ -14,27 +14,25 @@ function App() {
         <div className={styles.wrapper}>
           <header className={styles.appHeader}></header>
           <header className={styles.appHeader}>
-            {/* <img src="./sofieetlukas2.png" className={styles.name} />
-          <img src="./gardensummer.png" className={styles.appLogo} /> */}
             <Image
               src={garden}
-              // height="61vmin"
-              // width="100%"
+              height="610vh"
+              width="1000%"
               // pointerEvents="none"
               // width={500}
               // height={500}
             />
             <Image
               src={sofieLukas}
-              // height="12vmin"
-              // width="100%"
+              height="120vmin"
+              width="1000%"
               // pointerEvents="none"
               // height={500}
             />
 
             <p>
-              We would like to invite you to our wedding on the 8th of October
-              2022 in Paris, France. More details coming soon.
+              Would like to invite you to our wedding on the 8th of October 2022
+              in Paris, France. More details coming soon.
             </p>
 
             <div>
@@ -65,3 +63,7 @@ function App() {
 }
 
 export default App;
+{
+  /* <img src="./sofieetlukas2.png" className={styles.name} />
+             <img src="./gardensummer.png" className={styles.appLogo} /> */
+}
