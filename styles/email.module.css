@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.appLogo {
+  height: 61vmin;
+  pointer-events: none;
+}
+.name {
+  height: 12vmin;
+  pointer-events: none;
+}
+
+.bBack {
+  height: 500px;
+
+  background-image: url("../public/gardensummer.png");
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.appHeader {
+  background-color: white;
+  min-height: 100vh;
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: black;
+  text-align: left;
+}
+
+.appHeader p {
+  text-align: center;
+}
+
+.appLink {
+  color: #61dafb;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper div {
+  padding: 1em;
+}
+
+.box {
+  padding: 1em;
+}
+
+.login {
+  max-width: 21rem;
+  width: 100rem;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
