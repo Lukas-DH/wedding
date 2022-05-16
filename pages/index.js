@@ -12,7 +12,7 @@ function App() {
     <>
       <div className={styles.App}>
         <div className={styles.wrapper}>
-          <header className={styles.appHeader}></header>
+          {/* <header className={styles.appHeader}></header> */}
           <header className={styles.appHeader}>
             <Image
               src={garden}
@@ -39,7 +39,7 @@ function App() {
               {" "}
               <Link href="/email">
                 <a>
-                  <Button variant="warning">
+                  <Button className={styles.mustard} variant="warning">
                     Click here to submit your address
                   </Button>
                 </a>
@@ -55,7 +55,7 @@ function App() {
               </Link>
             </div>
           </header>
-          <header className={styles.appHeader}></header>
+          {/* <header className={styles.appHeader}></header> */}
         </div>
       </div>
     </>
