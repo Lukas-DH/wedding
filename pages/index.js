@@ -16,21 +16,19 @@ function App() {
           <header className={styles.appHeader}>
             {/* <img src="./sofieetlukas2.png" className={styles.name} />
           <img src="./gardensummer.png" className={styles.appLogo} /> */}
-
-            <Image
-              src={sofieLukas}
-              // height="12vmin"
-              // width="100%"
-              // pointerEvents="none"
-              // height={500}
-            />
-
             <Image
               src={garden}
               // height="61vmin"
               // width="100%"
               // pointerEvents="none"
               // width={500}
+              // height={500}
+            />
+            <Image
+              src={sofieLukas}
+              // height="12vmin"
+              // width="100%"
+              // pointerEvents="none"
               // height={500}
             />
 
