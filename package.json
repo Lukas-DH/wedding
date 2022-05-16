@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "buildstatic": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "bexport": "next build && next export -o _static"
   },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
