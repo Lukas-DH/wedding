@@ -11,8 +11,8 @@ function App() {
       <div className={styles.App}>
         <header className={styles.appHeader}>
           <p>
-            OPPs... that didn't work... please email us your name, addres, and
-            names of guests :)
+            OPPs... that didnt work... please email us your name, addres, and
+            names of guests
           </p>
           <Link href="mailto: contact@sofielukasforever.com">
             <a className={styles.a}>
