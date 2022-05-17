@@ -36,12 +36,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(8px + 2vmin);
+  font-size: calc(8px + 1.8vmin);
   color: black;
 }
 
 .appLink {
   color: #61dafb;
+}
+
+.btnCustom72 {
+  background-color: #94a9cb;
+  border-color: #94a9cb;
+}
+
+.btnCustom72:hover {
+  background-color: #a6b9d8;
+  border-color: #a6b9d8;
 }
 
 .wrapper {
@@ -56,6 +66,12 @@
 
 .box {
   padding: 1em;
+}
+
+.boxdiv {
+  padding: 0;
+  height: fit-content;
+  max-width: 500px;
 }
 
 /* @keyframes App-logo-spin {

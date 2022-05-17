@@ -8,6 +8,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
+      <Head>
+        <link href="https://use.typekit.net/ofy7gjj.css" rel="stylesheet" />
+        <title>Paris Wedding</title>
+      </Head>
       <div className={styles.App}>
         <header className={styles.appHeader}>
           <p>
@@ -16,7 +20,9 @@ function App() {
           </p>
           <Link href="mailto: contact@sofielukasforever.com">
             <a className={styles.a}>
-              <Button variant="warning">contact@sofielukasforever.com</Button>
+              <Button className={styles.btnCustom70} variant="warning">
+                contact@sofielukasforever.com
+              </Button>
             </a>
           </Link>
           <div className={styles.box}>

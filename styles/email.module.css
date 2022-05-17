@@ -71,6 +71,16 @@
   border-radius: 4px;
 }
 
+.btnCustom69 {
+  background-color: #94a9cb;
+  border-color: #94a9cb;
+}
+
+.btnCustom69:hover {
+  background-color: #a6b9d8;
+  border-color: #a6b9d8;
+}
+
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

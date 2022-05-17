@@ -41,6 +41,7 @@ function Email() {
       {" "}
       <Head>
         <link href="https://use.typekit.net/ofy7gjj.css" rel="stylesheet" />
+        <title>Paris Wedding</title>
       </Head>
       <body>
         <div className={styles.App}>
@@ -49,7 +50,11 @@ function Email() {
             <Link href="/">
               <a>
                 {" "}
-                <Button variant="warning" type="submit">
+                <Button
+                  className={styles.btnCustom69}
+                  variant="warning"
+                  type="submit"
+                >
                   &larr; back
                 </Button>
               </a>
@@ -118,12 +123,16 @@ function Email() {
                   <FormBT.Control
                     name="additionalGuests"
                     as="textarea"
-                    placeholder={`Full names of guests: \nChloé Dupont\n...`}
-                    rows={3}
+                    placeholder={`Full names of all attending with you: \nEmmanuel Macron\nCatherine Deneuve\n...`}
+                    rows={4}
                   />
                 </FormBT.Group>
 
-                <Button variant="warning" type="submit">
+                <Button
+                  className={styles.btnCustom69}
+                  variant="warning"
+                  type="submit"
+                >
                   Submit
                 </Button>
 
