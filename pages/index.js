@@ -19,7 +19,7 @@ function App() {
         <div className={styles.wrapper}>
           {/* <header className={styles.appHeader}></header> */}
           <header className={styles.appHeader}>
-            <body className={styles.boxdiv}>
+            <div className={styles.boxdiv}>
               <Image
                 src={garden}
                 // height="100%"
@@ -35,7 +35,7 @@ function App() {
                 // pointerEvents="none"
                 // height={500}
               />
-            </body>
+            </div>
 
             <div>
               <p>
@@ -45,7 +45,7 @@ function App() {
               <div>
                 <Link href="/email">
                   <a>
-                    <Button className={styles.btnCustom72} variant="warning">
+                    <Button className={styles.btnCustom77} variant="warning">
                       Click here to submit your address
                     </Button>
                   </a>
