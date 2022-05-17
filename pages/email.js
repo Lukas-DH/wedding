@@ -105,6 +105,28 @@ function Email() {
                   />
                 </FormBT.Group>
 
+                <Row className="mb-3">
+                  <FormBT.Group as={Col} controlId="formGridCity">
+                    <FormBT.Label>City*</FormBT.Label>
+                    <FormBT.Control
+                      name="city"
+                      type="text"
+                      placeholder="Timbuktu"
+                      required
+                    />
+                  </FormBT.Group>
+
+                  <FormBT.Group as={Col} controlId="formGridZip">
+                    <FormBT.Label>Postcode*</FormBT.Label>
+                    <FormBT.Control
+                      name="post"
+                      type="text"
+                      placeholder="80085"
+                      required
+                    />
+                  </FormBT.Group>
+                </Row>
+
                 <FormBT.Group className="mb-3" controlId="formBasicCountry">
                   <FormBT.Label>Country*</FormBT.Label>
                   <FormBT.Control
