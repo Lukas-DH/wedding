@@ -8,6 +8,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
+      {" "}
+      <Head>
+        <link href="https://use.typekit.net/ofy7gjj.css" rel="stylesheet" />
+      </Head>
       <div className={styles.App}>
         <header className={styles.appHeader}>
           <p>thanks! We hope to see you there</p>

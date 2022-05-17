@@ -25,7 +25,9 @@
 
 .appHeader {
   background-color: white;
-
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  font-style: normal;
   /* max-width: fit-content; */
   min-height: 80vh;
   padding-left: 20px;

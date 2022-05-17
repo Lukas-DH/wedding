@@ -10,6 +10,10 @@ import sofieLukas from "../public/sofieetlukas2.png";
 function App() {
   return (
     <>
+      {" "}
+      <Head>
+        <link href="https://use.typekit.net/ofy7gjj.css" rel="stylesheet" />
+      </Head>
       <div className={styles.App}>
         <div className={styles.wrapper}>
           {/* <header className={styles.appHeader}></header> */}
@@ -31,20 +35,20 @@ function App() {
             />
 
             <p>
-              Would like to invite you to our wedding on the 8th of October 2022
-              in Paris, France. More details coming soon.
+              Would like to send you an invitation you to thier wedding on the
+              8th of October 2022 in Paris, France. <br></br>
+              <div>
+                {" "}
+                <Link href="/email">
+                  <a>
+                    <Button className={styles.mustard} variant="warning">
+                      Click here to submit your address
+                    </Button>
+                  </a>
+                </Link>
+              </div>
+              More details coming soon.
             </p>
-
-            <div>
-              {" "}
-              <Link href="/email">
-                <a>
-                  <Button className={styles.mustard} variant="warning">
-                    Click here to submit your address
-                  </Button>
-                </a>
-              </Link>
-            </div>
 
             <div className={styles.box}>
               {" "}
