@@ -47,7 +47,7 @@ function App() {
                   </a>
                 </Link>
               </div>
-              More details coming soon.
+              Save the date! More details coming soon.
             </p>
 
             <div className={styles.box}>
