@@ -117,11 +117,12 @@ function Email() {
                   </FormBT.Group>
 
                   <FormBT.Group as={Col} controlId="formGridState">
-                    <FormBT.Label>State</FormBT.Label>
+                    <FormBT.Label>State*</FormBT.Label>
                     <FormBT.Control
                       name="state"
                       type="text"
                       placeholder="Oaxaca"
+                      required
                     />
                   </FormBT.Group>
 
