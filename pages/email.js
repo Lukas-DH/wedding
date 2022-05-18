@@ -116,6 +116,15 @@ function Email() {
                     />
                   </FormBT.Group>
 
+                  <FormBT.Group as={Col} controlId="formGridState">
+                    <FormBT.Label>State</FormBT.Label>
+                    <FormBT.Control
+                      name="state"
+                      type="text"
+                      placeholder="Oaxaca"
+                    />
+                  </FormBT.Group>
+
                   <FormBT.Group as={Col} controlId="formGridZip">
                     <FormBT.Label>Postcode*</FormBT.Label>
                     <FormBT.Control
