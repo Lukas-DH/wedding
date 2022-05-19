@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Form as FormBT, Button, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import emailjs from "@emailjs/browser";
@@ -10,10 +10,11 @@ import Head from "next/head";
 
 function Email() {
   const form = useRef();
+  const [loading, setLoading] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setLoading(true);
     emailjs
       .sendForm(
         "service_mhunsvk",
@@ -75,7 +76,6 @@ function Email() {
                     required
                   />
                 </FormBT.Group>
-
                 <FormBT.Group className="mb-3" controlId="formBasicEmail">
                   <FormBT.Label>Email address*</FormBT.Label>
                   <FormBT.Control
@@ -85,7 +85,6 @@ function Email() {
                     required
                   />
                 </FormBT.Group>
-
                 <FormBT.Group className="mb-3" controlId="formBasicAddress">
                   <FormBT.Label>Address*</FormBT.Label>
                   <FormBT.Control
@@ -95,7 +94,6 @@ function Email() {
                     required
                   />
                 </FormBT.Group>
-
                 <FormBT.Group className="mb-3" controlId="formBasicAddress2">
                   <FormBT.Label>Address 2</FormBT.Label>
                   <FormBT.Control
@@ -104,7 +102,6 @@ function Email() {
                     placeholder="apartment, studio, floor"
                   />
                 </FormBT.Group>
-
                 <Row className="mb-3">
                   <FormBT.Group as={Col} controlId="formGridCity">
                     <FormBT.Label>City*</FormBT.Label>
@@ -136,7 +133,6 @@ function Email() {
                     />
                   </FormBT.Group>
                 </Row>
-
                 <FormBT.Group className="mb-3" controlId="formBasicCountry">
                   <FormBT.Label>Country*</FormBT.Label>
                   <FormBT.Control
@@ -146,7 +142,6 @@ function Email() {
                     required
                   />
                 </FormBT.Group>
-
                 <FormBT.Group
                   className="mb-3"
                   controlId="exampleForm.ControlTextarea1"
@@ -159,15 +154,14 @@ function Email() {
                     rows={4}
                   />
                 </FormBT.Group>
-
                 <Button
                   className={styles.btnCustom69}
                   variant="warning"
                   type="submit"
                 >
                   Submit
-                </Button>
-
+                </Button>{" "}
+                {loading == true && <>Loading...</>}
                 {/* {errorMessage && <p className="error">{errorMessage}</p>} */}
               </FormBT>
             </div>
