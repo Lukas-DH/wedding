@@ -4,8 +4,8 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import garden from "../public/gardensummer2.png";
-import sofieLukas from "../public/sofieetlukas3.png";
+
+import sofieLukas from "../public/commingSoon.png";
 
 function App() {
   return (
@@ -20,14 +20,14 @@ function App() {
           {/* <header className={styles.appHeader}></header> */}
           <header className={styles.appHeader}>
             <div className={styles.boxdiv}>
-              <Image
+              {/* <Image
                 src={garden}
                 // height="100%"
                 // width="100%"
                 // pointerEvents="none"
                 // width={500}
                 // height={500}
-              />
+              /> */}
 
               <Image
                 src={sofieLukas}
@@ -37,7 +37,7 @@ function App() {
               />
             </div>
 
-            <div>
+            {/* <div>
               <p>
                 Would like to send you an invitation to thier wedding on the 8th
                 of October 2022 in Paris, France.
@@ -52,7 +52,7 @@ function App() {
                 </Link>
               </div>
               Save the date! More details coming soon.
-            </div>
+            </div> */}
 
             <div className={styles.box}>
               {" "}
